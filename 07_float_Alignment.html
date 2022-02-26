@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float and Alignment</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    .clr{
+      clear: both;
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.4em;
+    }
+    .container{
+      max-width: 960px;
+      margin: 30px auto;
+    }
+    .box{
+      background: 3px;
+      border: 1px #333 solid ;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+    .box p{
+      /* text align */
+      text-align: left;
+      text-align: right;
+      text-align: center;
+      text-align: justify;
+    }
+    #box-2{
+      float: left;
+      width: 69%;
+    }
+    #box-3{
+      float: right;
+      width: 30%;
+    }
+  </style>
+</head>
+<body>
+  <div id="contianer">
+    <div id="box-1" class="box">
+      <h3>Heading</h3>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, voluptas praesentium nobis ad labore iusto dolores ea libero dicta quidem reiciendis, aut laudantium nemo maiores! Quis exercitationem earum excepturi veniam eveniet voluptates, eum vel neque accusantium optio alias corporis maiores quia cumque doloremque, esse totam cum illum? Mollitia, aliquid nostrum!</p>    
+    </div>
+    <div id="box-2" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut sint, distinctio error qui nam fugiat explicabo aperiam non quo eaque commodi aspernatur, ipsam molestias natus? Enim maxime velit corrupti quos odio eos suscipit minus alias libero necessitatibus veritatis minima natus, iure deserunt numquam unde error labore nemo aut nam tenetur.</p>    
+    </div>
+    <div id="box-3" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, cupiditate minima? Nulla necessitatibus assumenda maiores labore enim ea nam repellat dicta in animi laborum, ducimus eaque optio aut dolorem provident! Ipsam perspiciatis aspernatur repellat, corporis sapiente id reprehenderit nulla beatae dicta neque fugiat consequatur. Molestias minima maiores officiis accusamus voluptatum.</p>
+    </div>
+
+    <div class="clr"></div>
+
+    <div id="box-4" class="box">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, cupiditate minima? Nulla necessitatibus assumenda maiores labore enim ea nam repellat dicta in animi laborum, ducimus eaque optio aut dolorem provident! Ipsam perspiciatis aspernatur repellat, corporis sapiente id reprehenderit nulla beatae dicta neque fugiat consequatur. Molestias minima maiores officiis accusamus voluptatum.</p>
+    </div>
+  </div>
+</body>
+</html>
